@@ -1,0 +1,676 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A focused driver on a road.",
+      "imageUrl": "https://images.unsplash.com/photo-1674771217095-8d62b6e5a3fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkcml2aW5nJTIwcm9hZHxlbnwwfHx8fDE3NjEyMTQ5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "driving road"
+    },
+    {
+      "id": "avatar-1",
+      "description": "User avatar 1",
+      "imageUrl": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2MTI5NTU5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "avatar-2",
+      "description": "User avatar 2",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MTI1ODc2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-3",
+      "description": "User avatar 3",
+      "imageUrl": "https://images.unsplash.com/photo-1569779213435-ba3167dde7cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBnbGFzc2VzfGVufDB8fHx8MTc2MTI5MzE2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man glasses"
+    },
+    {
+      "id": "user-avatar",
+      "description": "Default user avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1594616838951-c155f8d978a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzYxMjcwMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "sign-warning",
+      "description": "Warning for a danger with no specific traffic sign.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning.png",
+      "imageHint": "danger warning"
+    },
+    {
+      "id": "sign-warning-aircraft",
+      "description": "Warning for low-flying aircrafts.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-aircraft.png",
+      "imageHint": "low-flying aircraft"
+    },
+    {
+      "id": "sign-warning-animal-cattle",
+      "description": "Warning for cattle on the road.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-animal-cattle.png",
+      "imageHint": "cattle crossing"
+    },
+    {
+      "id": "sign-warning-animal-deer",
+      "description": "Warning for crossing deer.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-animal-deer.png",
+      "imageHint": "deer crossing"
+    },
+    {
+      "id": "sign-warning-bump",
+      "description": "Warning for a speed bump.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-bump.png",
+      "imageHint": "speed bump"
+    },
+    {
+      "id": "sign-warning-bumps",
+      "description": "Warning for a bad road surface.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-bumps.png",
+      "imageHint": "bad road"
+    },
+    {
+      "id": "sign-warning-children",
+      "description": "Warning for children.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-children.png",
+      "imageHint": "children playing"
+    },
+    {
+      "id": "warning-crossroad-give-way",
+      "description": "Give way to all drivers.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-crossroad-give-way.png",
+      "imageHint": "give way"
+    },
+    {
+      "id": "warning-crossroad-give-way-main",
+      "description": "Warning for a crossroad, give way to all drivers.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-crossroad-give-way-main.png",
+      "imageHint": "crossroad give"
+    },
+    {
+      "id": "warning-crossroad-roundabout",
+      "description": "Warning for a roundabout.",
+      "imageUrl": "https://i.ibb.co/jkcYVvDX/Bangladesh-road-sign-B9-svg.png",
+      "imageHint": "roundabout ahead"
+    },
+    {
+      "id": "warning-crossroad-side-road-left",
+      "description": "Warning for a crossroad with a side road on the left.",
+      "imageUrl": "https://i.ibb.co/XxCfHK0k/Bangladesh-road-sign-B3-L-svg.png",
+      "imageHint": "side road"
+    },
+    {
+      "id": "warning-crossroad-side-road-right",
+      "description": "Warning for a crossroad with side road on the right.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-crossroad-side-road-right.png",
+      "imageHint": "side road"
+    },
+    {
+      "id": "warning-crossroad-side-roads",
+      "description": "Warning for a crossroad side roads on the left and right.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-crossroad-side-roads.png",
+      "imageHint": "side roads"
+    },
+    {
+      "id": "warning-crossroad-side-roads_v1",
+      "description": "Warning for a crossroad where the roads are not opposite to each other.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-crossroad-side-roads_v1.png",
+      "imageHint": "offset roads"
+    },
+    {
+      "id": "warning-crossroad-side-roads_v2",
+      "description": "Warning for a crossroad where the roads are not opposite to each other.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-crossroad-side-roads_v2.png",
+      "imageHint": "offset roads"
+    },
+    {
+      "id": "warning-crossroad-stop",
+      "description": "Stop and give way to all drivers.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-crossroad-stop.png",
+      "imageHint": "stop ahead"
+    },
+    {
+      "id": "warning-crossroad-t",
+      "description": "Warning for an uncontrolled T-crossroad.",
+      "imageUrl": "https://i.ibb.co/0V8zFGcv/Bangladesh-road-sign-B5-svg.png",
+      "imageHint": "T-junction ahead"
+    },
+    {
+      "id": "warning-crossroad-y",
+      "description": "Warning for an uncontrolled Y-crossroad.",
+      "imageUrl": "https://i.ibb.co/v4qSD0QP/Bangladesh-road-sign-B6-svg.png",
+      "imageHint": "Y-junction ahead"
+    },
+    {
+      "id": "mandatory-direction-roundabout",
+      "description": "Mandatory direction of the roundabout.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-roundabout.png",
+      "imageHint": "roundabout mandatory"
+    },
+    {
+      "id": "sign-warning-curve-hairpin",
+      "description": "Warning for a U-turn.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-curve-hairpin.png",
+      "imageHint": "hairpin curve"
+    },
+    {
+      "id": "sign-warning-curve-hairpin_v1",
+      "description": "Warning for a U-turn.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-curve-hairpin_v1.png",
+      "imageHint": "hairpin curve"
+    },
+    {
+      "id": "sign-warning-curve-left",
+      "description": "Warning for a curve to the left.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-curve-left.png",
+      "imageHint": "left curve"
+    },
+    {
+      "id": "sign-warning-curve-left-right",
+      "description": "Warning for a double curve, first left then right.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-curve-left-right.png",
+      "imageHint": "double curve"
+    },
+    {
+      "id": "sign-warning-curve-right",
+      "description": "Warning for a curve to the right.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-curve-right.png",
+      "imageHint": "right curve"
+    },
+    {
+      "id": "sign-warning-curve-right-left",
+      "description": "Warning for a double curve, first right then left.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-curve-right-left.png",
+      "imageHint": "double curve"
+    },
+    {
+      "id": "sign-warning-dip",
+      "description": "Warning for a dip in the road.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-dip.png",
+      "imageHint": "road dip"
+    },
+    {
+      "id": "sign-warning-elderly",
+      "description": "Warning for elderly.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-elderly.png",
+      "imageHint": "elderly crossing"
+    },
+    {
+      "id": "sign-warning-falling-rocks",
+      "description": "Warning for falling rocks.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-falling-rocks.png",
+      "imageHint": "falling rocks"
+    },
+    {
+      "id": "sign-warning-height",
+      "description": "Warning for a limited height.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-height.png",
+      "imageHint": "height limit"
+    },
+    {
+      "id": "sign-warning-loose-chippings",
+      "description": "Warning for loose chippings on the road surface.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-loose-chippings.png",
+      "imageHint": "loose gravel"
+    },
+    {
+      "id": "sign-warning-narrowing",
+      "description": "Warning for a narrowing.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-narrowing.png",
+      "imageHint": "road narrows"
+    },
+    {
+      "id": "sign-warning-pedestrian",
+      "description": "Warning for pedestrians.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-pedestrian.png",
+      "imageHint": "pedestrians ahead"
+    },
+    {
+      "id": "sign-warning-pedestrian-crossing",
+      "description": "Warning for a crossing for pedestrians.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-pedestrian-crossing.png",
+      "imageHint": "pedestrian crossing"
+    },
+    {
+      "id": "sign-warning-quayside",
+      "description": "Warning for a quayside or riverbank.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-quayside.png",
+      "imageHint": "quayside ahead"
+    },
+    {
+      "id": "sign-warning-rickshaw",
+      "description": "Warning for rickshaws.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-rickshaw.png",
+      "imageHint": "rickshaws ahead"
+    },
+    {
+      "id": "sign-warning-road-merge",
+      "description": "Warning for two roads that merge.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-road-merge.png",
+      "imageHint": "merge ahead"
+    },
+    {
+      "id": "sign-warning-road-narrowing-left",
+      "description": "Warning for a road narrowing on the left.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-road-narrowing-left.png",
+      "imageHint": "road narrows"
+    },
+    {
+      "id": "sign-warning-road-narrowing-right",
+      "description": "Warning for a road narrowing on the right.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-road-narrowing-right.png",
+      "imageHint": "road narrows"
+    },
+    {
+      "id": "sign-warning-roadworks",
+      "description": "Warning for roadworks.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-roadworks.png",
+      "imageHint": "roadworks ahead"
+    },
+    {
+      "id": "sign-warning-slippery-road",
+      "description": "Warning for a slippery road surface.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-slippery-road.png",
+      "imageHint": "slippery road"
+    },
+    {
+      "id": "sign-warning-soft-verge",
+      "description": "Warning for a soft verge.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-soft-verge.png",
+      "imageHint": "soft verge"
+    },
+    {
+      "id": "sign-warning-steep-ascent",
+      "description": "Warning for a steep ascent.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-steep-ascent.png",
+      "imageHint": "steep hill"
+    },
+    {
+      "id": "sign-warning-steep-descent",
+      "description": "Warning for a steep descent.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-steep-descent.png",
+      "imageHint": "steep hill"
+    },
+    {
+      "id": "sign-warning-traffic-lights",
+      "description": "Warning for a traffic light.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-traffic-lights.png",
+      "imageHint": "traffic lights"
+    },
+    {
+      "id": "sign-warning-train-crossing",
+      "description": "Warning for a railroad crossing without barriers.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-train-crossing.png",
+      "imageHint": "train crossing"
+    },
+    {
+      "id": "sign-warning-train-crossing-barriers",
+      "description": "Warning for a railroad crossing with barriers.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-train-crossing-barriers.png",
+      "imageHint": "train crossing"
+    },
+    {
+      "id": "sign-warning-train-rail",
+      "description": "Warning for a railroad crossing with 1 railway.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-train-rail.png",
+      "imageHint": "railway crossing"
+    },
+    {
+      "id": "sign-warning-train-rails",
+      "description": "Warning for a railroad crossing with more than 1 railway.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-train-rails.png",
+      "imageHint": "railway crossing"
+    },
+    {
+      "id": "sign-warning-two-way-traffic",
+      "description": "Warning for a road with two-way traffic.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/warning/warning-two-way-traffic.png",
+      "imageHint": "two-way traffic"
+    },
+    {
+      "id": "prohibited-access-cyclist",
+      "description": "Cyclists prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-cyclist.png",
+      "imageHint": "cyclists prohibited"
+    },
+    {
+      "id": "prohibited-access-entry",
+      "description": "Direction prohibited (road with one-way traffic).",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-entry.png",
+      "imageHint": "direction prohibited"
+    },
+    {
+      "id": "prohibited-access-handcart",
+      "description": "Handcarts prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-handcart.png",
+      "imageHint": "handcarts prohibited"
+    },
+    {
+      "id": "prohibited-access-horse-cart",
+      "description": "Horsecarts prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-horse-cart.png",
+      "imageHint": "horsecarts prohibited"
+    },
+    {
+      "id": "prohibited-access-motorcycle-car",
+      "description": "Motorcycles and cars prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-motorcycle-car.png",
+      "imageHint": "motorcycles cars"
+    },
+    {
+      "id": "prohibited-access-pedestrian",
+      "description": "Pedestrians prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-pedestrian.png",
+      "imageHint": "pedestrians prohibited"
+    },
+    {
+      "id": "prohibited-access-rickshaw",
+      "description": "Rickshaws prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-rickshaw.png",
+      "imageHint": "rickshaws prohibited"
+    },
+    {
+      "id": "prohibited-access-tractor",
+      "description": "Tractors prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-tractor.png",
+      "imageHint": "tractors prohibited"
+    },
+    {
+      "id": "prohibited-access-truck",
+      "description": "Trucks prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-access-truck.png",
+      "imageHint": "trucks prohibited"
+    },
+    {
+      "id": "prohibited-action-horn",
+      "description": "Using the horn prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-action-horn.png",
+      "imageHint": "horn prohibited"
+    },
+    {
+      "id": "prohibited-action-overtaking",
+      "description": "Overtaking prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-action-overtaking.png",
+      "imageHint": "overtaking prohibited"
+    },
+    {
+      "id": "prohibited-action-speed",
+      "description": "Begin of a speed limit.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-action-speed.png",
+      "imageHint": "speed limit"
+    },
+    {
+      "id": "prohibited-action-speed_end",
+      "description": "End of the speed limit.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-action-speed_end.png",
+      "imageHint": "end speed"
+    },
+    {
+      "id": "prohibited-action-turn-left",
+      "description": "Turning left prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-action-turn-left.png",
+      "imageHint": "no left"
+    },
+    {
+      "id": "prohibited-action-turn-right",
+      "description": "Turning right prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-action-turn-right.png",
+      "imageHint": "no right"
+    },
+    {
+      "id": "prohibited-action-turn-u",
+      "description": "Turning around prohibited (U-turn).",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-action-turn-u.png",
+      "imageHint": "no u-turn"
+    },
+    {
+      "id": "prohibited-cargo-explosive",
+      "description": "Vehicles with explosive materials prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-cargo-explosive.png",
+      "imageHint": "explosives prohibited"
+    },
+    {
+      "id": "prohibited-cargo-height",
+      "description": "Vehicles higher than indicated prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-cargo-height.png",
+      "imageHint": "height limit"
+    },
+    {
+      "id": "prohibited-cargo-length",
+      "description": "Vehicles longer than indicated prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-cargo-length.png",
+      "imageHint": "length limit"
+    },
+    {
+      "id": "prohibited-cargo-weight",
+      "description": "Vehicles heavier than indicated prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-cargo-weight.png",
+      "imageHint": "weight limit"
+    },
+    {
+      "id": "prohibited-cargo-weight-axle",
+      "description": "Vehicles with an axle weight heavier than indicated prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-cargo-weight-axle.png",
+      "imageHint": "axle weight"
+    },
+    {
+      "id": "prohibited-cargo-width",
+      "description": "Vehicles wider than indicated prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-cargo-width.png",
+      "imageHint": "width limit"
+    },
+    {
+      "id": "prohibited-entry-checkpoint",
+      "description": "Entry prohibited (checkpoint).",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-entry-checkpoint.png",
+      "imageHint": "checkpoint prohibited"
+    },
+    {
+      "id": "prohibited-parking",
+      "description": "Parking prohibited.",
+      "imageUrl": "https://i.ibb.co/gbJ6bN5/Bangladesh-road-sign-A18-svg.png",
+      "imageHint": "parking prohibited"
+    },
+    {
+      "id": "prohibited-parking-stopping",
+      "description": "Parking and stopping prohibited.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/prohibitory/prohibited-parking-stopping.png",
+      "imageHint": "no stopping"
+    },
+    {
+      "id": "mandatory-direction-ahead-turn-left",
+      "description": "Turning left mandatory.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-ahead-turn-left.png",
+      "imageHint": "left mandatory"
+    },
+    {
+      "id": "mandatory-direction-ahead-turn-right",
+      "description": "Turning right mandatory.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-ahead-turn-right.png",
+      "imageHint": "right mandatory"
+    },
+    {
+      "id": "mandatory-direction-pass-left",
+      "description": "Passing left mandatory.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-pass-left.png",
+      "imageHint": "pass left"
+    },
+    {
+      "id": "mandatory-direction-pass-left-right",
+      "description": "Passing left or right mandatory.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-pass-left-right.png",
+      "imageHint": "pass either"
+    },
+    {
+      "id": "mandatory-direction-pass-right",
+      "description": "Passing right mandatory.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-pass-right.png",
+      "imageHint": "pass right"
+    },
+    {
+      "id": "mandatory-direction-turn-left",
+      "description": "Mandatory left.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-turn-left.png",
+      "imageHint": "left mandatory"
+    },
+    {
+      "id": "mandatory-direction-turn-right",
+      "description": "Mandatory right.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-turn-right.png",
+      "imageHint": "right mandatory"
+    },
+    {
+      "id": "mandatory-direction-up",
+      "description": "Driving straight ahead mandatory.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-direction-up.png",
+      "imageHint": "straight mandatory"
+    },
+    {
+      "id": "mandatory-lane-cyclist",
+      "description": "Mandatory path for cyclists.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-lane-cyclist.png",
+      "imageHint": "cyclist lane"
+    },
+    {
+      "id": "mandatory-lane-rickshaw",
+      "description": "Mandatory path for rickshaws.",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/mandatory/mandatory-lane-rickshaw.png",
+      "imageHint": "rickshaw lane"
+    },
+    {
+      "id": "info-no-through-road",
+      "description": "No Through Road",
+      "imageUrl": "https://i.ibb.co/fd57K9tY/Bangladesh-road-sign-C1-svg.png",
+      "imageHint": "no through-road"
+    },
+    {
+      "id": "info-pedestrian-crossing",
+      "description": "Pedestrian Crossing",
+      "imageUrl": "https://i.ibb.co/KpRQnWWD/Bangladesh-road-sign-C2-svg.png",
+      "imageHint": "pedestrian crossing"
+    },
+    {
+      "id": "info-parking",
+      "description": "Parking Place",
+      "imageUrl": "https://traffic-rules.com/img/asia/bd/signs/information/information-parking.png",
+      "imageHint": "parking place"
+    },
+    {
+      "id": "info-gas-station",
+      "description": "Filling Station",
+      "imageUrl": "https://i.ibb.co/TM3FW3MH/OM-road-sign-316-svg.png",
+      "imageHint": "gas station"
+    },
+    {
+      "id": "info-breakdown-service",
+      "description": "Breakdown Service",
+      "imageUrl": "https://i.ibb.co/TxSKQ14j/Uganda-road-sign-I26-svg.png",
+      "imageHint": "breakdown service"
+    },
+    {
+      "id": "info-telephone",
+      "description": "Telephone",
+      "imageUrl": "https://i.ibb.co/v6hXNB5P/OM-road-sign-315-svg.png",
+      "imageHint": "telephone"
+    },
+    {
+      "id": "info-accommodation",
+      "description": "Overnight Accommodation",
+      "imageUrl": "https://i.ibb.co/v48JpTRr/Bangladesh-road-sign-C7-svg.png",
+      "imageHint": "accommodation"
+    },
+    {
+      "id": "info-first-aid",
+      "description": "First-Aid Post",
+      "imageUrl": "https://i.ibb.co/fzCP109G/Bangladesh-road-sign-C8-svg.png",
+      "imageHint": "first-aid"
+    },
+    {
+      "id": "info-hospital",
+      "description": "Hospital",
+      "imageUrl": "https://i.ibb.co/NMXhJ5q/Bangladesh-road-sign-C9-svg.png",
+      "imageHint": "hospital"
+    },
+    {
+      "id": "info-refreshments",
+      "description": "Refreshments",
+      "imageUrl": "https://i.ibb.co/CKSvJrFJ/Uganda-road-sign-I27-svg.png",
+      "imageHint": "refreshments"
+    },
+    {
+      "id": "info-restaurant",
+      "description": "Restaurant",
+      "imageUrl": "https://i.ibb.co/sSCqts7/restaurant-sign-symbol-on-transparent-background-free-png.png",
+      "imageHint": "restaurant"
+    },
+    {
+      "id": "info-picnic-site",
+      "description": "Picnic Site",
+      "imageUrl": "https://1.bp.blogspot.com/-FZeJVzzfo2M/YK43l3lw0DI/AAAAAAABLEs/Zg90GJ89RYYC_mHfIBAao66Mfo5pdy7SgCLcBGAsYHQ/s320/Picnic%2BSite%2B%2B.png",
+      "imageHint": "picnic site"
+    },
+    {
+      "id": "info-mosque",
+      "description": "Mosque",
+      "imageUrl": "https://i.ibb.co/FLGZHLv0/Bangladesh-road-sign-C13-svg.png",
+      "imageHint": "mosque"
+    },
+    {
+      "id": "info-temple",
+      "description": "Temple",
+      "imageUrl": "https://i.ibb.co/mrkqDxCj/Bangladesh-road-sign-C14-svg.png",
+      "imageHint": "temple"
+    },
+    {
+      "id": "info-church",
+      "description": "Church",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bangladesh_road_sign_C15.svg",
+      "imageHint": "church"
+    },
+    {
+      "id": "info-fire-station",
+      "description": "Fire Station",
+      "imageUrl": "https://i.ibb.co/NdXw1B6m/Bangladesh-road-sign-C16-svg.png",
+      "imageHint": "fire station"
+    },
+    {
+      "id": "info-toilets",
+      "description": "Toilets",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bangladesh_road_sign_C17.svg/640px-Bangladesh_road_sign_C17.svg.png",
+      "imageHint": "toilets"
+    },
+    {
+      "id": "info-recommended-route",
+      "description": "Recommended route for pedestrians, cycles and rickshaws",
+      "imageUrl": "https://i.ibb.co/KpRQnWWD/Bangladesh-road-sign-C2-svg.png",
+      "imageHint": "recommended route"
+    },
+    {
+      "id": "info-cycle-rickshaw-lane",
+      "description": "Lane for cycles and rickshaws",
+      "imageUrl": "https://i.ibb.co/VcSv7rC5/Bangladesh-road-sign-C18-svg.png",
+      "imageHint": "cycle rickshaw"
+    },
+    {
+      "id": "info-bus-stop",
+      "description": "Bus Stop",
+      "imageUrl": "https://i.ibb.co/jP2N8zHB/Bangladesh-road-sign-C21-svg.png",
+      "imageHint": "bus stop"
+    },
+    {
+      "id": "info-taxi-park",
+      "description": "Taxi Park",
+      "imageUrl": "https://i.ibb.co/DfTsjP0b/Bangladesh-road-sign-C22-svg.png",
+      "imageHint": "taxi park"
+    },
+    {
+      "id": "info-police-station",
+      "description": "Police Station",
+      "imageUrl": "https://i.ibb.co/MDRHVKvL/Bangladesh-road-sign-C23-svg.png",
+      "imageHint": "police station"
+    },
+    {
+      "id": "info-toll-road",
+      "description": "Toll Road or Bridge",
+      "imageUrl": "https://i.ibb.co/5XQSCCnF/Bangladesh-road-sign-C24-svg.png",
+      "imageHint": "toll road"
+    }
+  ]
+}
